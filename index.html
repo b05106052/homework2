@@ -31,13 +31,13 @@
         <!--價格篩選-->
         <div class="form-group">
             <label for="priceUpper">價格上限</label>
-            <input type="number" name="priceUpper" class="form-control" id="priceUpper" placeholder="Price Upper" required>
+            <input type="number" name="priceUpper" class="form-control" id="priceUpper" placeholder="Max Price" required>
           </div>
           <div class="form-group">
-            <label for="priceLower">價格下線</label>
-            <input type="number" name="priceLower" class="form-control" id="priceLower" placeholder="Price Lower" required>
+            <label for="priceLower">價格下限</label>
+            <input type="number" name="priceLower" class="form-control" id="priceLower" placeholder="Min Price" required>
         </div>
-        <button id="priceFilter" type="button" class="btn btn-primary">Submit</button>
+        <button id="priceFilter" type="button" class="btn btn-primary">查詢</button>
 
         <!-- 產品列表 -->
         <div class="row" id="product-list">
@@ -48,15 +48,12 @@
             <div class="col">
                 <nav aria-label="Page navigation example">
                     <ul id="page-number" class="pagination justify-content-center">
-                        <li class="page-item disabled">
+                        <!--<li class="page-item disabled">
                             <a class="page-link" href="#" tabindex="-1" aria-disabled="true">&laquo;</a>
                         </li>
-                        <li class="page-item active"><a class="page-link" href="#">1</a></li>
-                        <li class="page-item"><a class="page-link" href="#">2</a></li>
-                        <li class="page-item"><a class="page-link" href="#">3</a></li>
                         <li class="page-item">
                             <a class="page-link" href="#">&raquo;</a>
-                        </li>
+                        </li>-->
                     </ul>
                 </nav>
             </div>
