@@ -1,6 +1,6 @@
 $(document).ready(function(){
     var newPage=(totalItem)=>{
-        var totalPage = Math.round(totalItem/20);
+        var totalPage = Math.ceil(totalItem/20);
         for(var i =1;i<=totalPage;i++){
             var li = `<li id="page${i}" class="page-item"><a class="page-link" href="#">${i}</a></li>`;
             $('#page-number').append(li);
