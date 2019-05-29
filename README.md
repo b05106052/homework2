@@ -55,6 +55,7 @@ $.ajax({
 3. 兩個不能為相同
 ![image](./price.png)
 
+## File Tree
 ````
 |-- homework2
     |-- README.md 
