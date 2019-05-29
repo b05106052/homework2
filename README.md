@@ -53,11 +53,17 @@ $.ajax({
 1. 價格下線不能高過上限
 2. 不能空任何一個
 3. 兩個不能為相同
-![image](https://github.com/b05106052/homework2/price.png)
+![image](./price.png)
 
-|-- Desktop 
-|-- README.md 
-|-- addNewItem.html 
-|-- index.html 
-|-- package-lock.json 
-|-- price.png
+````
+|-- homework2
+    |-- README.md 
+    |-- addNewItem.html 
+    |-- index.html 
+    |-- price.png
+    |-- js
+        |--addNewItem.js
+        |--index.js
+    |-- css
+        |-- index.css
+````
