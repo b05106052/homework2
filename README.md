@@ -54,3 +54,10 @@ $.ajax({
 2. 不能空任何一個
 3. 兩個不能為相同
 ![image](https://github.com/b05106052/homework2/price.png)
+
+|-- Desktop 
+|-- README.md 
+|-- addNewItem.html 
+|-- index.html 
+|-- package-lock.json 
+|-- price.png
